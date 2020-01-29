@@ -1,0 +1,15 @@
+{
+    "name": "CSVHelper.Sample",
+    "references": [
+        "GUID:802a279e0a7511e4999d6ecd8b7345da"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,9 @@
+{
+    "name": "com.joshclose.csvhelper",
+    "displayName": "CsvHelper",
+    "description": "Library to help reading and writing CSV files",
+    "version": "13.0.0",
+    "author": "JoshClose",
+    "dependencies": {}
+  }
+  
