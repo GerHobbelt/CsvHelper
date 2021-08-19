@@ -8,8 +8,8 @@
 
 		<!-- Build -->
 		<AssemblyName>CsvHelper</AssemblyName>
-		<TargetFrameworks>net50;netstandard2.1;netstandard2.0;net47;net45</TargetFrameworks>
-		<!--<TargetFrameworks>net50</TargetFrameworks>-->
+		<TargetFrameworks>net5.0;netstandard2.1;netstandard2.0;net47;net45</TargetFrameworks>
+		<!--<TargetFrameworks>net5.0</TargetFrameworks>-->
 		<RootNamespace>CsvHelper</RootNamespace>
 		<DefaultLanguage>en-US</DefaultLanguage>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -41,7 +41,7 @@
 	<ItemGroup>
 	  <None Remove="CsvHelper.net45.v3.ncrunchproject" />
 	  <None Remove="CsvHelper.net47.v3.ncrunchproject" />
-	  <None Remove="CsvHelper.net50.v3.ncrunchproject" />
+	  <None Remove="CsvHelper.net5.0.v3.ncrunchproject" />
 	  <None Remove="CsvHelper.netstandard2.0.v3.ncrunchproject" />
 	  <None Remove="CsvHelper.netstandard2.1.v3.ncrunchproject" />
 	</ItemGroup>

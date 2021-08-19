@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<!--<TargetFrameworks>net50;netcoreapp3.1;netcoreapp2.1;net47;net452</TargetFrameworks>-->
-		<TargetFrameworks>net50</TargetFrameworks>
+		<!--<TargetFrameworks>net5.0;netcoreapp3.1;netcoreapp2.1;net47;net452</TargetFrameworks>-->
+		<TargetFrameworks>net5.0</TargetFrameworks>
 		<SignAssembly>True</SignAssembly>
 		<AssemblyOriginatorKeyFile>CsvHelper.snk</AssemblyOriginatorKeyFile>
 	</PropertyGroup>
@@ -10,7 +10,7 @@
 	<ItemGroup>
 	  <None Remove="CsvHelper.Tests.net452.v3.ncrunchproject" />
 	  <None Remove="CsvHelper.Tests.net47.v3.ncrunchproject" />
-	  <None Remove="CsvHelper.Tests.net50.v3.ncrunchproject" />
+	  <None Remove="CsvHelper.Tests.net5.0.v3.ncrunchproject" />
 	  <None Remove="CsvHelper.Tests.netcoreapp2.1.v3.ncrunchproject" />
 	  <None Remove="CsvHelper.Tests.netcoreapp3.1.v3.ncrunchproject" />
 	  <None Remove="CsvHelper.Tests.v3.ncrunchproject" />
@@ -18,7 +18,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="Castle.Core" Version="4.4.1" />
-		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.10.0" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
 		<PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
 		<PackageReference Include="System.Linq.Async" Version="5.0.0" />
 		<PackageReference Include="xunit" Version="2.4.1" />
@@ -26,7 +26,7 @@
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 			<PrivateAssets>all</PrivateAssets>
 		</PackageReference>
-		<PackageReference Include="coverlet.collector" Version="3.0.3">
+		<PackageReference Include="coverlet.collector" Version="3.1.0">
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 			<PrivateAssets>all</PrivateAssets>
 		</PackageReference>
