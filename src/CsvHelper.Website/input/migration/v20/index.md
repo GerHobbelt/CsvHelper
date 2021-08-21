@@ -239,7 +239,7 @@ while (parser.Read())
 }
 ```
 
-Constructor paramter `IFieldReader fieldReader` removed from all constructors.
+Constructor parameter `IFieldReader fieldReader` removed from all constructors.
 
 ```cs
 // v19
